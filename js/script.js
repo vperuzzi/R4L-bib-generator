@@ -17,16 +17,15 @@ function init() {
 }
 
 function doBib() {
-  ctx.clearRect(0,0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.drawImage(img, 0, 0);
   var number = Math.floor((Math.random() * 90000) + 10000);
+  var name = document.getElementById("name").value;
+  ctx.font = '50px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(name.toUpperCase(), canvas.width / 2, canvas.height / 2 - 100);
   ctx.font = '300px sans-serif';
-  ctx.fillText(number.toString(),canvas.width/3 - 200, canvas.height/2 + 150);
-}
-
-
-function download() {
-
+  ctx.fillText(number.toString(), canvas.width / 2, canvas.height / 2 + 175);
 }
 
 init();

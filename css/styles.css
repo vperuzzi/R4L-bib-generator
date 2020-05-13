@@ -4,7 +4,6 @@ body {
 
 .btn-success {
   margin: auto;
-  padding: 20px;
 }
 
 .jumbotron-fluid {
@@ -14,4 +13,8 @@ body {
 canvas {
   padding: 20px;
   margin: auto;
+}
+
+form {
+margin: 0 50%;
 }
