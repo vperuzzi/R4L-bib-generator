@@ -1,0 +1,17 @@
+body {
+  background-color: #f6eedf;
+}
+
+.btn-success {
+  margin: auto;
+  padding: 20px;
+}
+
+.jumbotron-fluid {
+  background-color: #d63447
+}
+
+canvas {
+  padding: 20px;
+  margin: auto;
+}
