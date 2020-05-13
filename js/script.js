@@ -19,7 +19,7 @@ function init() {
 function doBib() {
   ctx.clearRect(0,0, canvas.width, canvas.height);
   ctx.drawImage(img, 0, 0);
-  var number = Math.floor((Math.random() * 99999) + 10000);
+  var number = Math.floor((Math.random() * 90000) + 10000);
   ctx.font = '300px sans-serif';
   ctx.fillText(number.toString(),canvas.width/3 - 200, canvas.height/2 + 150);
 }
