@@ -33,9 +33,9 @@ function doBib() {
   var name = document.getElementById("last_name").value;
   bibctx.font = '50px sans-serif';
   bibctx.textAlign = 'center';
-  bibctx.fillText(name.toUpperCase(), bibCanvas.width / 2, bibCanvas.height / 2 - 85);
+  bibctx.fillText(name.toUpperCase(), bibCanvas.width / 2, bibCanvas.height / 2 - 60);
   bibctx.font = '300px sans-serif';
-  bibctx.fillText(number.toString(), bibCanvas.width / 2, bibCanvas.height / 2 + 175);
+  bibctx.fillText(number.toString(), bibCanvas.width / 2, bibCanvas.height / 2 + 180);
 }
 
 function doCert() {
@@ -45,8 +45,8 @@ function doCert() {
   var last = document.getElementById("last_name").value;
   certctx.font = "100px sans-serif";
   certctx.textAlign = 'center';
-  certctx.fillText(first.toUpperCase(), certCanvas.width/2, certCanvas.height/2 + 75);
-  certctx.fillText(last.toUpperCase(), certCanvas.width/2, certCanvas.height/2 + 175);
+  certctx.fillText(first.toUpperCase(), certCanvas.width/2, certCanvas.height/2 + 65);
+  certctx.fillText(last.toUpperCase(), certCanvas.width/2, certCanvas.height/2 + 165);
 }
 
 init();
